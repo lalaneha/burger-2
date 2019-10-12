@@ -1,0 +1,31 @@
+{
+  "name": "burger-2",
+  "version": "1.0.0",
+  "description": "A full stack web application using MySQL, Sequelize, Handlebars, Node and Express that allows the user to log the burgers they would like to eat. The user can also select a temperature for the burger to be cooked that will be stored in a seperate table from the burger.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalaneha/burger-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalaneha/burger-2/issues"
+  },
+  "homepage": "https://github.com/lalaneha/burger-2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {}
+}
